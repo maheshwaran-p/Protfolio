@@ -129,8 +129,8 @@ html {
 }
 
 .navBar .logo h1 {
-  color: #333;
-  font-size: 2rem;
+  color: #000;
+  font-size: 2.2rem;
   letter-spacing: 0.2rem;
 }
 
@@ -146,15 +146,15 @@ html {
 .navBar .navBar__menu ul li a {
   position: relative;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 1.5rem;
+  font-weight: 700;
+  font-size: 1.6rem;
   padding-bottom: 1rem;
-  color: #333;
+  color: #000;
   transition: 0.3s;
 }
 
 .navBar .navBar__menu ul li a:before {
-  background: rgb(236, 78, 78);
+  background: rgb(131, 130, 132);
   position: absolute;
   content: "";
   bottom: 0;
@@ -170,7 +170,7 @@ html {
 }
 
 .navBar .navBar__menu ul li a:hover {
-  color: rgb(226, 86, 86);
+  color: rgb(10, 18, 239);
 }
 
 .sec1__container {
@@ -235,7 +235,7 @@ html {
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  background: linear-gradient(rgb(255, 107, 107), rgb(184, 27, 27));
+  background: linear-gradient(rgb(185, 39, 234), rgb(40, 164, 235));
 }
 
 .sec1__design4 {
@@ -247,8 +247,10 @@ html {
   width: 40%;
   border-radius: 30% 50%;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
-  background: linear-gradient(rgb(245, 93, 93), rgb(255, 122, 122));
-  animation: animate3 ease-in-out 3s infinite;
+  background: linear-gradient(rgb(42, 114, 221), rgb(255, 122, 253));
+  background: linear-gradient(rgb(40, 164, 235), rgb(185, 39, 234));
+
+  animation: animate3 ease-in-out 2s infinite;
 }
 
 @keyframes animate3 {
@@ -273,14 +275,14 @@ html {
   filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.5));
 }
 
-.sec1_imgBx .sec1_design1 {
+/* .sec1_imgBx .sec1_design1 {
   position: absolute;
   top: 0;
   left: 0;
   height: 10rem;
   width: 10rem;
-  background: linear-gradient(rgb(255, 107, 107), rgb(184, 27, 27));
-  border-radius: 5rem 10rem 10rem 4rem;
+  background: linear-gradient(rgb(30, 144, 220), rgb(184, 27, 176));
+  border-radius: 5rem 10rem 5rem 10rem;
   filter: blur(6px);
   animation: animate 3s ease-in-out infinite;
   z-index: 1000;
@@ -306,7 +308,7 @@ html {
   right: 0;
   height: 10rem;
   width: 10rem;
-  background: linear-gradient(rgb(255, 107, 107), rgb(184, 27, 27));
+  background: linear-gradient(rgb(107, 230, 255), rgb(227, 17, 202));
   border-radius: 2rem;
   filter: blur(2px);
   animation: animate2 ease-in-out 5s infinite;
@@ -325,7 +327,7 @@ html {
   100% {
     transform: translateY(0rem) rotateZ(0deg);
   }
-}
+} */
 
 .sec2 {
   position: relative;
@@ -382,7 +384,7 @@ html {
   position: relative;
   width: 10rem;
   overflow: hidden;
-  border: 0.3rem solid rgb(156, 60, 60);
+  border: 0.3rem solid rgb(242, 49, 232);
   padding: 0.3rem;
   border-radius: 50%;
   display: flex;
@@ -398,7 +400,7 @@ html {
 .sec2__aboutme1Img img {
   width: 100%;
   object-fit: cover;
-  background: linear-gradient(rgb(255, 121, 121), rgb(146, 33, 33));
+  background: linear-gradient(rgb(40, 164, 235), rgb(185, 39, 234));
   border-radius: 50%;
 }
 
@@ -428,7 +430,7 @@ html {
 }
 
 .sec2__aboutme1Social ul li {
-  margin: 0 2rem;
+  margin: 1rem 1.5rem;
   transition: 0.3s;
 }
 
@@ -440,19 +442,11 @@ html {
 }
 
 .sec2__aboutme1Social ul li:hover {
-  transform: translateY(-0.3rem);
+  transform: translateY(-0.4rem);
 }
 
-.sec2__aboutme1Social ul li:nth-child(1) a:hover {
-  color: rgb(235, 108, 108);
-}
-
-.sec2__aboutme1Social ul li:nth-child(2) a:hover {
-  color: rgb(0, 0, 0);
-}
-
-.sec2__aboutme1Social ul li:nth-child(3) a:hover {
-  color: rgb(85, 109, 219);
+.sec2__aboutme1Social ul li a:hover {
+  color: rgb(36, 9, 237);
 }
 
 .sec2__aboutme2 {
@@ -464,7 +458,7 @@ html {
 }
 
 .sec2__aboutme2 p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .sec3 {
@@ -481,6 +475,7 @@ html {
 
 .sec3 h1 {
   position: relative;
+  margin: 6rem 0 4rem;
   color: #fff;
   font-size: 5rem;
   border-bottom: 0.2rem solid rgb(235, 102, 102);
@@ -512,7 +507,7 @@ html {
   transform: translate(0.5rem, 0.5rem);
 }
 
-.sec3__percent svg circle:nth-child(2) {
+/* .sec3__percent svg circle:nth-child(2) {
   stroke-dasharray: 440;
   stroke-dashoffset: 440;
 }
@@ -530,7 +525,7 @@ html {
 .sec3_card:nth-child(3) .sec3box .sec3_percent svg circle:nth-child(2) {
   stroke: #6074e6;
   stroke-dashoffset: calc(440 - (440 * 55) / 100);
-}
+} */
 
 .sec3__card {
   position: relative;
@@ -699,6 +694,8 @@ html {
 
 .sec4__content1 p {
   color: #fff;
+  font-weight: 300;
+  font-size: 1.5rem;
 }
 
 .sec4__content2Icon {
@@ -762,7 +759,7 @@ html {
 }
 
 .sec4__links ul li a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #ddd;
   transition: 0.3s;
   text-decoration: none;
   font-size: 1.5rem;
