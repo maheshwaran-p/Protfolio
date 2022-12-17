@@ -188,7 +188,7 @@ html {
   font-weight: 600;
   font-size: 3rem;
   text-transform: capitalize;
-  /* transform: translateY(7rem); */
+  transform: translateY(7rem);
 }
 
 .sec1__contentHider {
